@@ -1,0 +1,27 @@
+.cookie-consent {
+  background-color:darkblue;
+  color:white;
+  display:block!important;
+  font-size:14px;
+  height:50px;
+  line-height:20px;
+  padding:15px;
+}
+
+#consent {
+  margin-left: 20px;
+  background-color: #337ab7;
+}
+
+a {
+  color: white;
+}
+a:hover {
+   color: white;
+ }
+ 
+@media (max-width:1000px){
+  .cookie-consent{
+    height: 90px;
+  }
+}

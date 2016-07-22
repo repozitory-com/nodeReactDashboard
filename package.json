@@ -1,0 +1,31 @@
+{
+  "name": "node-react-dashboard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel-core": "^5.8.12",
+    "babel-loader": "5.3.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "bootstrap": "^3.3.6",
+    "cron": "^1.1.0",
+    "express": "^4.14.0",
+    "gridstack": "^0.2.5",
+    "jquery": "^3.1.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "request": "^2.72.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
