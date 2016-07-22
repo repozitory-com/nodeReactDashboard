@@ -1,43 +1,47 @@
-# Introduction
+## Introduction
 User Friendly Dashboard using NodeJS and ReactJS
 This is demo dashboard built using NodeJS on server side and ReactJS on client side. 
 
 
-#Demo
-Look at demo at demodash.repo.com
+##Demo
+<http://demodash.repozitory.com>
 
 
-#Key Features
-It is easy to use and setup.
-We use premade widgets, or fully customizable using ReactJS.
-We write cron job to update the data after every n time period to your dashboard.
-Also used the Node JS and socket.io to push data to dashboard.
-Drag & Drop interface for re-arranging your widgets.
-Host your dashboards in less than 1 hour.
+##Key Features
+
+1. We use premade widgets, or fully customizable using ReactJS.
+2. We write cron job to update the data after every n time period to your dashboard.
+3. Also used the Node JS and socket.io to push data to dashboard.
+4. Drag & Drop interface for re-arranging your widgets.
+5. Host your dashboards in less than 1 hour.
 
 
-#Installation
-git clone.
-npm install
-edit dashboard.config.js 
-	- edit your facebook app Id and secret key
+##Getting Started
+1. Take clone somewhere in your projects folder
+ ```git clone https://github.com/repozitory-com/nodeReactDashboard.git```
+2. Install from npm
+```npm install```
+2. Edit dashboard.config.js 
+	- add your facebook app Id and secret key
 	- add cron time to run the job to get data updated like every day.
 	- example for cron job time -  
-npm start
-http://localhost:3000
+3. Start server
+```npm start```
+4. Open browser and open below URL
+```http://localhost:3000```
 
 
-#Browser Compatibility
+##Browser Compatibility
 Tested in Chrome, Safari 6+, and Firefox 15+.
 
 
-#Next Versions
-We are working on chart based widgets and will be released soon so always get connected...
+##What More can be Done
+New chart based widgets will be released soon.
 
 
-#License
+##License
 Distributed under the MIT license
 
 
-#Credits
-Node React Dashboard is developed and maintained by Repozitory <http://repozitory.com> a software development company working on web and mobile dashboards. If you are interested in getting a custom dashboard for your startup please contact kunal@repozitory.com.
+##Credits
+Node React Dashboard is developed and maintained by Repozitory <http://repozitory.com> a software development company working on web and mobile dashboards. If you are interested in getting a custom dashboard for your company please contact kunal@repozitory.com.
