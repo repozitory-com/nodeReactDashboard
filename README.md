@@ -18,9 +18,11 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 
 ## Getting Started
 1. Take clone somewhere in your projects folder
+
  	```git clone https://github.com/repozitory-com/nodeReactDashboard.git```
 
 2. Install from npm
+
 	```npm install```
 
 3. Edit dashboard.config.js 
@@ -41,9 +43,11 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 	```
 
 4. Start server
+
 	```npm start```
 
 5. Open browser and open below URL
+
 	```http://localhost:3000```
 
 
