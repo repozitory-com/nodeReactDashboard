@@ -18,29 +18,33 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 
 ##Getting Started
 
-1. Take clone somewhere in your projects folder 
-
-	```git clone https://github.com/repozitory-com/nodeReactDashboard.git ```
-
-2. Install packages from npm 
-
-	```npm install ```
-
+1. Take clone somewhere in your projects folder
+ ```git clone https://github.com/repozitory-com/nodeReactDashboard.git```
+2. Install from npm
+```npm install```
 3. Edit dashboard.config.js 
 	- add your facebook app Id and secret key
 	- add cron time to run the job to get data updated like every day.
 	- example for cron job time -  
-3. Start server 
+	```# ┌───────────── min (0 - 59)```
+	```# │ ┌────────────── hour (0 - 23)```
+	```# │ │ ┌─────────────── day of month (1 - 31)```
+	```# │ │ │ ┌──────────────── month (1 - 12)```
+	```# │ │ │ │ ┌───────────────── day of week (0 - 6) (0 to 6 are Sunday to```
+	```# │ │ │ │ │                  Saturday, or use names; 7 is also Sunday)```
+	```# │ │ │ │ │```
+	```# │ │ │ │ │```
+	```# * * * * *  command to execute```
 
-	```npm start ```
+4. Start server
+```npm start```
+5. Open browser and open below URL
+```http://localhost:3000```
 
-4. Open browser and go to below URL 
-
-	```http://localhost:3000 ``` 
 
 
 ##Browser Compatibility
-Tested in Chrome, Safari 6+, and Firefox 15+.
+Tested in Chrome, Safari, and Firefox.
 
 
 ##What More can be Done
