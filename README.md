@@ -49,14 +49,14 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 5. Open browser and open below URL
 
 	```
-	http://localhost:3000
+	<http://localhost:3000>
 	```
 
 
 ---------------------------
 
 ##Browser Compatibility
-Tested in Chrome, Safari 6+, and Firefox 15+.
+Tested in Chrome, Safari, and Firefox.
 
 
 ##What More can be Done
