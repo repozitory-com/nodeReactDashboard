@@ -48,7 +48,9 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 
 5. Open browser and open below URL
 
-	```http://localhost:3000```
+	```
+	http://localhost:3000
+	```
 
 
 ---------------------------
