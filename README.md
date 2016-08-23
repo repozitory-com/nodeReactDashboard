@@ -1,6 +1,5 @@
 ## Introduction
-User Friendly Dashboard using NodeJS and ReactJS
-This is demo dashboard built using NodeJS on server side and ReactJS on client side. 
+User Friendly Dashboard using NodeJS and ReactJS. This is demo dashboard built using NodeJS on server side and ReactJS on client side. For example - this dashboard displays the (*personal*) facebook page counts / impressions, github repos / watchers / forks using line graphs, text, list and many more.  
 
 
 ## Demo
@@ -51,16 +50,12 @@ This is demo dashboard built using NodeJS on server side and ReactJS on client s
 	```
 	<http://localhost:3000>
 	```
-
+6. More components can be added to this dashboard and can get updated data (*daily, hourly*) from Google Analytics, Trello, Stripe and other APIs on your own dashboard. 
 
 ---------------------------
 
 ##Browser Compatibility
 Tested in Chrome, Safari, and Firefox.
-
-
-##What More can be Done
-New chart based widgets will be released soon.
 
 
 ##License
